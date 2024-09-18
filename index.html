@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HSL Color Picker</title>
+</head>
+<body>
+    <p id="note">Copied to clipboard</p>
+
+    <div class="hue">
+        <p>Hue</p>
+        <input type="range" value="360" max="360">
+        <p class="percent">360&deg;</p>
+    </div>
+    <div class="sat">
+        <p>Saturation</p>
+        <input type="range" value="100">
+        <p class="percent">100%</p>
+    </div>
+    <div class="light">
+        <p>Lightness</p>
+        <input type="range" value="100">
+        <p class="percent">100%</p>
+    </div>
+
+    <button id="copyBtn">C<br>O<br>P<br>Y</button>
+    <button id="randBtn">R<br>A<br>N<br>D<br>O<br>M</button>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
